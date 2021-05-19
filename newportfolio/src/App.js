@@ -1,9 +1,9 @@
 import React from "react"
 // Components
-import Header from "./Header"
-import Work from "./Work"
-import About from "./about"
-import Footer from "./Footer"
+import Header from "./components/pages/Header"
+import Work from "./components/pages/Work"
+import About from "./components/pages/about"
+import Footer from "./components/pages/Footer"
 import {
   BrowserRouter as Router,
   Switch,

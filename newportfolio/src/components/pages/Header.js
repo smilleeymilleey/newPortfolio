@@ -1,23 +1,21 @@
 import React from "react"
-import Fade from "react-reveal/Fade"
-import Card from "../components/atoms/Card"
 
-import data from "../yourdata"
+import data from "../../yourdata"
 
 const Header = () => {
   return (
     <div className="section" id="home">
       <div className="container">
         <div className="header-wrapper">
-          <Fade bottom>
+         
             <h2>
               Hi, I'm {data.name}{" "}
               <span role="img" aria-label="Emoji">
                 👋
               </span>
             </h2>
-          </Fade>
-          <Fade bottom cascade>
+        
+        
             <div className="heading-wrapper">
               <h1>
                 {data.headerTagline[0]
@@ -38,7 +36,7 @@ const Header = () => {
               </h1>
             </div>
 
-            <Fade bottom>
+         
             <a
               href={`mailto:${
                 data.contactEmail ? data.contactEmail : "caitlynmiley.cm@gmail.com"
@@ -48,8 +46,6 @@ const Header = () => {
               CONNECT WITH ME
             </a>
  
-          </Fade>
-          </Fade>
         </div>
       </div>
     </div>

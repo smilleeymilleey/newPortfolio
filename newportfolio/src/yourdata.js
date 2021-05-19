@@ -1,18 +1,18 @@
 // Skills Icons
-import htmlIcon from "./images/html.svg"
-import cssIcon from "./images/css.svg"
-import reactIcon from "./images/react.svg"
-import jsIcon from "./images/javascript.svg"
-import designIcon from "./images/design.svg"
-import codeIcon from "./images/code.svg"
+// import htmlIcon from "./images/html.svg"
+// import cssIcon from "./images/css.svg"
+// import reactIcon from "./images/react.svg"
+// import jsIcon from "./images/javascript.svg"
+// import designIcon from "./images/design.svg"
+// import codeIcon from "./images/code.svg"
 
 
 // Social Icon
-import githubIcon from "./images/github.svg"
-import codepenIcon from "./images/codepen.svg"
-import dribbbleIcon from "./images/dribbble.svg"
-import instagramIcon from "./images/instagram.svg"
-import linkedinIcon from "./images/linkedin.svg"
+// import githubIcon from "./images/github.svg"
+// import codepenIcon from "./images/codepen.svg"
+// import dribbbleIcon from "./images/dribbble.svg"
+// import instagramIcon from "./images/instagram.svg"
+// import linkedinIcon from "./images/linkedin.svg"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -116,32 +116,32 @@ export default {
 
   skills: [
     {
-      img: htmlIcon,
+      
       para:
         " ",
     },
     {
-      img: cssIcon,
+      
       para:
         " ",
     },
     {
-      img: jsIcon,
+    
       para:
         " ",
     },
     {
-      img: reactIcon,
+      
       para:
         " ",
     },
     {
-      img: designIcon,
+      
       para:
         " ",
     },
     {
-      img: codeIcon,
+      
       para:
         " ",
     },
@@ -162,8 +162,8 @@ export default {
   contactSubHeading: "Let's create your next experience together",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/smilleeymilleey/" },
-    { img: linkedinIcon, url: "https://linkedin.com/in/caitlynmiley" },
+    { url: "https://github.com/smilleeymilleey/" },
+    { url: "https://linkedin.com/in/caitlynmiley" },
   ],
 
   // End Contact Section ---------------

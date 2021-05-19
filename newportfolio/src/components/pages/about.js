@@ -1,6 +1,6 @@
 import React from "react"
-import Fade from "react-reveal/Fade"
-import data from "../yourdata"
+
+import data from "../../yourdata"
 
 const About = () => {
   return (
@@ -8,9 +8,9 @@ const About = () => {
       <div className="container">
         <div className="about-section">
           <div className="content">
-            <Fade bottom cascade>
+         
               <h1>About Me</h1>
-            </Fade>
+           
             <p>
               {data.aboutParaOne}
               <br></br>
