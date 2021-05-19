@@ -1,7 +1,4 @@
 import React from "react"
-
-import Layout from "../components/Layout"
-import SEO from "../components/seo"
 // Components
 import Header from "./Header"
 import Work from "./Work"
